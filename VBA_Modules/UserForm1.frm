@@ -15,7 +15,7 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 
 ' ===================================
-' Оптимизированная форма ввода данных
+' Форма ввода данных
 ' ===================================
 
 Option Explicit
@@ -23,7 +23,7 @@ Option Explicit
 ' Constants
 Private Const COORD_FORMAT_DECIMAL As Boolean = False
 Private Const COORD_FORMAT_DEGREES As Boolean = True
-Private Const PASSWORD As String = "3timitimi3" ' Match password from ModuleMain
+Private Const PASSWORD As String = "" 
 
 ' API Declarations for mouse wheel support in ComboBoxes
 Private Declare PtrSafe Function SendMessage Lib "user32" Alias "SendMessageA" _
